@@ -1,1 +1,0 @@
-__import__("time").sleep(2); __import__("pyautogui").leftClick()
