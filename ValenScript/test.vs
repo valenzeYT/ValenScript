@@ -1,6 +1,0 @@
-IMPORT input
-IMPORT math
-
-WHILE TRUE
-	PRINT [1+2-3*4/5]
-	WAIT 1
