@@ -1,3 +1,3 @@
 IMPORT wifi
 
-PRINT wifi.password "sasd"
+PRINT wifi.password "sasd
