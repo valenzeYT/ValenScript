@@ -11,6 +11,7 @@ using ModuleInitializer = std::function<void(Interpreter&)>;
 
 void registerModule(const std::string& name, ModuleInitializer initializer);
 const ModuleInitializer* getModule(const std::string& name);
+bool loadPlugin(const std::string& name);
 
 } // namespace module_registry
 

@@ -1,0 +1,341 @@
+2026-03-04 16:33:38 downloading: math from https://raw.githubusercontent.com/valenzeYT/math/main/math.cpp
+2026-03-04 16:33:38 downloaded: math to downloads\math.cpp
+2026-03-04 16:33:38 build plugin: g++ -std=c++17 -O2 -shared -o "lib\math.dll" "downloads\math.cpp" "bin\valen.dll.a"
+2026-03-04 16:33:40 build time ms: 1425
+2026-03-04 16:33:40 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 16:42:50 removed dll: math
+2026-03-04 16:42:50 removed source: math
+2026-03-04 16:42:50 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 16:42:54 downloading: math from https://raw.githubusercontent.com/valenzeYT/math/main/math.cpp
+2026-03-04 16:42:54 downloaded: math to downloads\math.cpp
+2026-03-04 16:42:54 build plugin: g++ -std=c++17 -O2 -shared -o "lib\math.dll" "downloads\math.cpp" "bin\valen.dll.a"
+2026-03-04 16:42:56 build time ms: 1381
+2026-03-04 16:42:56 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 16:44:22 removed dll: math
+2026-03-04 16:44:22 removed source: math
+2026-03-04 16:44:22 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 16:44:25 downloading: math from https://raw.githubusercontent.com/valenzeYT/math/main/math.cpp
+2026-03-04 16:44:26 downloaded: math to downloads\math.cpp
+2026-03-04 16:44:26 build plugin: g++ -std=c++17 -O2 -shared -o "lib\math.dll" "downloads\math.cpp" "bin\valen.dll.a"
+2026-03-04 16:44:27 build time ms: 1362
+2026-03-04 16:44:27 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 19:09:49 downloading: json from https://raw.githubusercontent.com/valenzeYT/json/refs/heads/main/json.cpp
+2026-03-04 19:09:49 downloaded: json to downloads\json.cpp
+2026-03-04 19:09:49 build plugin: g++ -std=c++17 -O2 -shared -o "lib\json.dll" "downloads\json.cpp" "bin\valen.dll.a"
+2026-03-04 19:09:51 build time ms: 2012
+2026-03-04 19:09:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:29:15 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:29:15 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:29:15 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:29:20 build time ms: 5342
+2026-03-04 20:29:20 build failed: gpu
+2026-03-04 20:29:30 downloading: cp from https://raw.githubusercontent.com/valenzeYT/cp/main/cp.cpp
+2026-03-04 20:29:32 downloading: cpu from https://raw.githubusercontent.com/valenzeYT/cpu/refs/heads/main/cpu.cpp
+2026-03-04 20:29:33 downloaded: cpu to downloads\cpu.cpp
+2026-03-04 20:29:33 build plugin: g++ -std=c++17 -O2 -shared -o "lib\cpu.dll" "downloads\cpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:29:35 build time ms: 1956
+2026-03-04 20:29:35 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:29:40 downloading: display from https://raw.githubusercontent.com/valenzeYT/display/refs/heads/main/display.cpp
+2026-03-04 20:29:40 downloaded: display to downloads\display.cpp
+2026-03-04 20:29:40 build plugin: g++ -std=c++17 -O2 -shared -o "lib\display.dll" "downloads\display.cpp" "bin\valen.dll.a"
+2026-03-04 20:29:42 build time ms: 1632
+2026-03-04 20:29:42 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:29:45 downloading: memory from https://raw.githubusercontent.com/valenzeYT/memory/refs/heads/main/memory.cpp
+2026-03-04 20:29:45 downloaded: memory to downloads\memory.cpp
+2026-03-04 20:29:45 build plugin: g++ -std=c++17 -O2 -shared -o "lib\memory.dll" "downloads\memory.cpp" "bin\valen.dll.a"
+2026-03-04 20:29:47 build time ms: 1320
+2026-03-04 20:29:47 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:29:49 downloading: system from https://raw.githubusercontent.com/valenzeYT/system/refs/heads/main/system.cpp
+2026-03-04 20:29:50 downloaded: system to downloads\system.cpp
+2026-03-04 20:29:50 build plugin: g++ -std=c++17 -O2 -shared -o "lib\system.dll" "downloads\system.cpp" "bin\valen.dll.a"
+2026-03-04 20:29:51 build time ms: 1586
+2026-03-04 20:29:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:29:53 downloading: time from https://raw.githubusercontent.com/valenzeYT/time/refs/heads/main/time.cpp
+2026-03-04 20:29:53 downloaded: time to downloads\time.cpp
+2026-03-04 20:29:53 build plugin: g++ -std=c++17 -O2 -shared -o "lib\time.dll" "downloads\time.cpp" "bin\valen.dll.a"
+2026-03-04 20:29:54 build time ms: 587
+2026-03-04 20:29:54 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:33:30 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:33:30 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:33:30 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:33:32 build time ms: 1220
+2026-03-04 20:33:32 build failed: gpu
+2026-03-04 20:34:50 removed source: gpu
+2026-03-04 20:34:50 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:34:55 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:34:55 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:34:55 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:34:57 build time ms: 1700
+2026-03-04 20:34:57 build failed: gpu
+2026-03-04 20:36:29 removed source: gpu
+2026-03-04 20:36:29 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:36:33 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:36:33 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:36:33 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:36:35 build time ms: 1712
+2026-03-04 20:36:35 build failed: gpu
+2026-03-04 20:36:46 removed source: gpu
+2026-03-04 20:36:46 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:36:46 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:36:46 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:36:46 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:36:48 build time ms: 1636
+2026-03-04 20:36:48 build failed: gpu
+2026-03-04 20:38:50 removed source: gpu
+2026-03-04 20:38:50 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:38:50 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:38:51 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:38:51 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:38:52 build time ms: 1643
+2026-03-04 20:38:52 build failed: gpu
+2026-03-04 20:39:13 already downloaded: gpu
+2026-03-04 20:39:13 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:39:15 build time ms: 1937
+2026-03-04 20:39:15 build failed: gpu
+2026-03-04 20:39:32 already downloaded: gpu
+2026-03-04 20:39:32 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:39:33 build time ms: 1731
+2026-03-04 20:39:33 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:41:50 removed dll: gpu
+2026-03-04 20:41:50 removed source: gpu
+2026-03-04 20:41:50 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:41:50 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:41:50 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:41:50 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:41:52 build time ms: 1647
+2026-03-04 20:41:52 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:42:39 downloading: gui from https://raw.githubusercontent.com/valenzeYT/gui/refs/heads/main/gui.cpp
+2026-03-04 20:42:39 downloaded: gui to downloads\gui.cpp
+2026-03-04 20:42:39 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a"
+2026-03-04 20:42:43 build time ms: 3561
+2026-03-04 20:42:43 build failed: gui
+2026-03-04 20:43:26 already downloaded: gui
+2026-03-04 20:43:26 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a"
+2026-03-04 20:43:30 build time ms: 3592
+2026-03-04 20:43:30 build failed: gui
+2026-03-04 20:43:42 already downloaded: gui
+2026-03-04 20:43:42 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a"
+2026-03-04 20:43:46 build time ms: 3724
+2026-03-04 20:43:46 build failed: gui
+2026-03-04 20:44:29 already downloaded: gui
+2026-03-04 20:44:29 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 20:44:33 build time ms: 3872
+2026-03-04 20:44:33 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:46:41 removed dll: gui
+2026-03-04 20:46:41 removed source: gui
+2026-03-04 20:46:41 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:46:44 downloading: gui from https://raw.githubusercontent.com/valenzeYT/gui/refs/heads/main/gui.cpp
+2026-03-04 20:46:44 downloaded: gui to downloads\gui.cpp
+2026-03-04 20:46:44 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 20:46:48 build time ms: 3420
+2026-03-04 20:46:48 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:48:33 lib installed: cpu
+2026-03-04 20:48:33 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: cpu
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: gpu
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: display
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: memory
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: system
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: time
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:38 lib installed: gui
+2026-03-04 20:50:38 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: cpu
+2026-03-04 20:50:51 removed source: cpu
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: gpu
+2026-03-04 20:50:51 removed source: gpu
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: display
+2026-03-04 20:50:51 removed source: display
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: memory
+2026-03-04 20:50:51 removed source: memory
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: system
+2026-03-04 20:50:51 removed source: system
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: time
+2026-03-04 20:50:51 removed source: time
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 removed dll: gui
+2026-03-04 20:50:51 removed source: gui
+2026-03-04 20:50:51 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:51 downloading: cpu from https://raw.githubusercontent.com/valenzeYT/cpu/refs/heads/main/cpu.cpp
+2026-03-04 20:50:51 downloaded: cpu to downloads\cpu.cpp
+2026-03-04 20:50:51 build plugin: g++ -std=c++17 -O2 -shared -o "lib\cpu.dll" "downloads\cpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:50:53 build time ms: 1568
+2026-03-04 20:50:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:53 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:50:53 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:50:53 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a" -include cmath -ldxgi
+2026-03-04 20:50:55 build time ms: 1709
+2026-03-04 20:50:55 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:55 downloading: display from https://raw.githubusercontent.com/valenzeYT/display/refs/heads/main/display.cpp
+2026-03-04 20:50:55 downloaded: display to downloads\display.cpp
+2026-03-04 20:50:55 build plugin: g++ -std=c++17 -O2 -shared -o "lib\display.dll" "downloads\display.cpp" "bin\valen.dll.a"
+2026-03-04 20:50:57 build time ms: 1622
+2026-03-04 20:50:57 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:57 downloading: memory from https://raw.githubusercontent.com/valenzeYT/memory/refs/heads/main/memory.cpp
+2026-03-04 20:50:57 downloaded: memory to downloads\memory.cpp
+2026-03-04 20:50:57 build plugin: g++ -std=c++17 -O2 -shared -o "lib\memory.dll" "downloads\memory.cpp" "bin\valen.dll.a"
+2026-03-04 20:50:59 build time ms: 1443
+2026-03-04 20:50:59 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:50:59 downloading: system from https://raw.githubusercontent.com/valenzeYT/system/refs/heads/main/system.cpp
+2026-03-04 20:50:59 downloaded: system to downloads\system.cpp
+2026-03-04 20:50:59 build plugin: g++ -std=c++17 -O2 -shared -o "lib\system.dll" "downloads\system.cpp" "bin\valen.dll.a"
+2026-03-04 20:51:01 build time ms: 1658
+2026-03-04 20:51:01 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:51:06 downloading: time from https://raw.githubusercontent.com/valenzeYT/time/refs/heads/main/time.cpp
+2026-03-04 20:51:06 downloaded: time to downloads\time.cpp
+2026-03-04 20:51:06 build plugin: g++ -std=c++17 -O2 -shared -o "lib\time.dll" "downloads\time.cpp" "bin\valen.dll.a"
+2026-03-04 20:51:07 build time ms: 605
+2026-03-04 20:51:07 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:51:07 downloading: gui from https://raw.githubusercontent.com/valenzeYT/gui/refs/heads/main/gui.cpp
+2026-03-04 20:51:08 downloaded: gui to downloads\gui.cpp
+2026-03-04 20:51:08 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 20:51:11 build time ms: 3886
+2026-03-04 20:51:11 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: cpu
+2026-03-04 20:58:53 removed source: cpu
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: gpu
+2026-03-04 20:58:53 removed source: gpu
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: display
+2026-03-04 20:58:53 removed source: display
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: memory
+2026-03-04 20:58:53 removed source: memory
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: system
+2026-03-04 20:58:53 removed source: system
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: time
+2026-03-04 20:58:53 removed source: time
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 removed dll: gui
+2026-03-04 20:58:53 removed source: gui
+2026-03-04 20:58:53 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:53 downloading: cpu from https://raw.githubusercontent.com/valenzeYT/cpu/refs/heads/main/cpu.cpp
+2026-03-04 20:58:53 downloaded: cpu to downloads\cpu.cpp
+2026-03-04 20:58:53 build plugin: g++ -std=c++17 -O2 -shared -o "lib\cpu.dll" "downloads\cpu.cpp" "bin\valen.dll.a"
+2026-03-04 20:58:55 build time ms: 1567
+2026-03-04 20:58:55 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:55 downloading: gpu from https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+2026-03-04 20:58:55 downloaded: gpu to downloads\gpu.cpp
+2026-03-04 20:58:55 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gpu.dll" "downloads\gpu.cpp" "bin\valen.dll.a" -include cmath -ldxgi
+2026-03-04 20:58:57 build time ms: 1718
+2026-03-04 20:58:57 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:57 downloading: display from https://raw.githubusercontent.com/valenzeYT/display/refs/heads/main/display.cpp
+2026-03-04 20:58:57 downloaded: display to downloads\display.cpp
+2026-03-04 20:58:57 build plugin: g++ -std=c++17 -O2 -shared -o "lib\display.dll" "downloads\display.cpp" "bin\valen.dll.a"
+2026-03-04 20:58:59 build time ms: 1650
+2026-03-04 20:58:59 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:58:59 downloading: memory from https://raw.githubusercontent.com/valenzeYT/memory/refs/heads/main/memory.cpp
+2026-03-04 20:58:59 downloaded: memory to downloads\memory.cpp
+2026-03-04 20:58:59 build plugin: g++ -std=c++17 -O2 -shared -o "lib\memory.dll" "downloads\memory.cpp" "bin\valen.dll.a"
+2026-03-04 20:59:01 build time ms: 1380
+2026-03-04 20:59:01 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:59:01 downloading: system from https://raw.githubusercontent.com/valenzeYT/system/refs/heads/main/system.cpp
+2026-03-04 20:59:01 downloaded: system to downloads\system.cpp
+2026-03-04 20:59:01 build plugin: g++ -std=c++17 -O2 -shared -o "lib\system.dll" "downloads\system.cpp" "bin\valen.dll.a"
+2026-03-04 20:59:03 build time ms: 1615
+2026-03-04 20:59:03 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:59:03 downloading: time from https://raw.githubusercontent.com/valenzeYT/time/refs/heads/main/time.cpp
+2026-03-04 20:59:03 downloaded: time to downloads\time.cpp
+2026-03-04 20:59:03 build plugin: g++ -std=c++17 -O2 -shared -o "lib\time.dll" "downloads\time.cpp" "bin\valen.dll.a"
+2026-03-04 20:59:04 build time ms: 613
+2026-03-04 20:59:04 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 20:59:04 downloading: gui from https://raw.githubusercontent.com/valenzeYT/gui/refs/heads/main/gui.cpp
+2026-03-04 20:59:05 downloaded: gui to downloads\gui.cpp
+2026-03-04 20:59:05 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 20:59:08 build time ms: 3718
+2026-03-04 20:59:08 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 21:12:43 lib installed: gui
+2026-03-04 21:12:43 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 21:52:18 already downloaded: gui
+2026-03-04 21:52:18 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20 -lmsimg32
+2026-03-04 21:52:19 build time ms: 409
+2026-03-04 21:52:19 build failed: gui
+2026-03-04 21:52:56 already downloaded: gui
+2026-03-04 21:52:56 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 21:53:00 build time ms: 3775
+2026-03-04 21:53:00 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:18:47 lib installed: gui
+2026-03-04 22:18:47 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:34:42 lib installed: gui
+2026-03-04 22:34:42 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:34:44 lib installed: gui
+2026-03-04 22:34:44 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:35:38 already downloaded: gui
+2026-03-04 22:35:38 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 22:35:42 build time ms: 3882
+2026-03-04 22:35:42 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:44:32 lib installed: gui
+2026-03-04 22:44:32 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:45:34 lib installed: gui
+2026-03-04 22:45:34 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-04 22:46:01 already downloaded: gui
+2026-03-04 22:46:01 build plugin: g++ -std=c++17 -O2 -shared -o "lib\gui.dll" "downloads\gui.cpp" "bin\valen.dll.a" -lgdi32 -luser32 -lshell32 -lole32 -loleaut32 -luxtheme -lcomdlg32 -lcomctl32 -lriched20
+2026-03-04 22:46:05 build time ms: 4794
+2026-03-04 22:46:05 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-05 20:53:44 removed dll: space
+2026-03-05 20:53:44 removed source: space
+2026-03-05 20:53:44 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-05 20:53:48 downloading: space from https://raw.githubusercontent.com/valenzeYT/space/main/space.cpp
+2026-03-05 20:53:48 downloaded: space to downloads\space.cpp
+2026-03-05 20:53:48 build plugin: g++ -std=c++17 -O2 -shared -o "lib\space.dll" "downloads\space.cpp" "bin\valen.dll.a"
+2026-03-05 20:53:51 build time ms: 2339
+2026-03-05 20:53:51 build failed: space
+2026-03-05 20:55:28 already downloaded: space
+2026-03-05 20:55:28 build plugin: g++ -std=c++17 -O2 -shared -o "lib\space.dll" "downloads\space.cpp" "bin\valen.dll.a" -lwinhttp
+2026-03-05 20:55:31 build time ms: 2308
+2026-03-05 20:55:31 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-05 20:56:22 removed dll: space
+2026-03-05 20:56:22 removed source: space
+2026-03-05 20:56:22 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-05 20:56:25 downloading: space from https://raw.githubusercontent.com/valenzeYT/space/main/space.cpp
+2026-03-05 20:56:26 downloaded: space to downloads\space.cpp
+2026-03-05 20:56:26 build plugin: g++ -std=c++17 -O2 -shared -o "lib\space.dll" "downloads\space.cpp" "bin\valen.dll.a" -lwinhttp
+2026-03-05 20:56:28 build time ms: 2172
+2026-03-05 20:56:28 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-05 20:57:50 downloading: nstall from https://raw.githubusercontent.com/valenzeYT/nstall/main/nstall.cpp
+2026-03-05 20:57:54 downloading: os from https://raw.githubusercontent.com/valenzeYT/os/refs/heads/main/os.cpp
+2026-03-05 20:57:55 downloaded: os to downloads\os.cpp
+2026-03-05 20:57:55 build plugin: g++ -std=c++17 -O2 -shared -o "lib\os.dll" "downloads\os.cpp" "bin\valen.dll.a"
+2026-03-05 20:57:57 build time ms: 2422
+2026-03-05 20:57:57 snippets generator not found: tools\gen_valenscript_snippets.exe
+2026-03-06 20:00:20 lib installed: space
+2026-03-06 20:00:20 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 20:00:27 downloading: requests from https://raw.githubusercontent.com/valenzeYT/requests/refs/heads/main/requests.cpp
+2026-03-06 20:00:27 downloaded: requests to C:\valenscript\downloads\requests.cpp
+2026-03-06 20:00:27 build plugin: g++ -std=c++17 -O2 -shared -o "C:\valenscript\lib\requests.dll" "C:\valenscript\downloads\requests.cpp" "C:\valenscript\bin\valen.dll.a"
+2026-03-06 20:00:28 build time ms: 797
+2026-03-06 20:00:28 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 20:00:44 lib installed: requests
+2026-03-06 20:00:44 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 20:05:46 already downloaded: discord
+2026-03-06 20:05:46 build plugin: g++ -std=c++17 -O2 -shared -o "C:\valenscript\lib\discord.dll" "C:\valenscript\downloads\discord.cpp" "C:\valenscript\bin\valen.dll.a" -lwinhttp
+2026-03-06 20:05:47 build time ms: 1662
+2026-03-06 20:05:47 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 20:07:30 already downloaded: audio
+2026-03-06 20:07:30 build plugin: g++ -std=c++17 -O2 -shared -o "C:\valenscript\lib\audio.dll" "C:\valenscript\downloads\audio.cpp" "C:\valenscript\bin\valen.dll.a" -lwinmm
+2026-03-06 20:07:31 build time ms: 1480
+2026-03-06 20:07:31 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 20:12:30 already downloaded: convert
+2026-03-06 20:12:30 build plugin: g++ -std=c++17 -O2 -shared -o "C:\valenscript\lib\convert.dll" "C:\valenscript\downloads\convert.cpp" "C:\valenscript\bin\valen.dll.a"
+2026-03-06 20:12:33 build time ms: 3045
+2026-03-06 20:12:33 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 23:41:30 lib installed: display
+2026-03-06 23:41:30 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe
+2026-03-06 23:41:34 downloading: motherboard from https://raw.githubusercontent.com/valenzeYT/motherboard/refs/heads/main/motherboard.cpp
+2026-03-06 23:41:34 downloaded: motherboard to C:\valenscript\downloads\motherboard.cpp
+2026-03-06 23:41:34 build plugin: g++ -std=c++17 -O2 -shared -o "C:\valenscript\lib\motherboard.dll" "C:\valenscript\downloads\motherboard.cpp" "C:\valenscript\bin\valen.dll.a"
+2026-03-06 23:41:41 build time ms: 6595
+2026-03-06 23:41:41 snippets generator not found: C:\valenscript\tools\gen_valenscript_snippets.exe

@@ -2,15 +2,47 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Generate ValenScript Libs",
+      "label": "Build ValenScript Tools",
       "type": "shell",
-      "command": "tools\\gen_all_libs.exe && tools\\gen_valenscript_snippets.exe \"${file}\"",
+      "command": "powershell -NoProfile -ExecutionPolicy Bypass -File tools\\build_tools.ps1",
+      "problemMatcher": []
+    },
+    {
+      "label": "Watch ValenScript Snippets (Workspace)",
+      "type": "shell",
+      "command": "tools\\gen_valenscript_snippets.exe --workspace --watch",
+      "isBackground": true,
+      "dependsOn": [
+        "Build ValenScript Tools"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Watch ValenScript Snippets (Active File)",
+      "type": "shell",
+      "command": "tools\\gen_valenscript_snippets.exe --watch \"${file}\"",
+      "isBackground": true,
+      "dependsOn": [
+        "Build ValenScript Tools"
+      ],
       "problemMatcher": []
     },
     {
       "label": "Generate ValenScript Snippets (Active File)",
       "type": "shell",
       "command": "tools\\gen_valenscript_snippets.exe \"${file}\"",
+      "dependsOn": [
+        "Build ValenScript Tools"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate ValenScript Snippets (Workspace Imports)",
+      "type": "shell",
+      "command": "tools\\gen_valenscript_snippets.exe --workspace",
+      "dependsOn": [
+        "Build ValenScript Tools"
+      ],
       "problemMatcher": []
     }
   ]

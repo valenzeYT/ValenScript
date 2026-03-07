@@ -5,6 +5,12 @@
 #include <stdexcept>
 
 Lexer::Lexer(const std::string& t) : text(t), pos(0) {
+    if (text.size() >= 3 &&
+        static_cast<unsigned char>(text[0]) == 0xEF &&
+        static_cast<unsigned char>(text[1]) == 0xBB &&
+        static_cast<unsigned char>(text[2]) == 0xBF) {
+        pos = 3;
+    }
     currentChar = pos < text.size() ? text[pos] : '\0';
     indentStack.push_back(0);
     atLineStart = true;

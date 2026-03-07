@@ -1,10 +1,11 @@
 #include "../include/interpreter.h"
+#include "../include/task_lib.h"
 #include <cmath>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
 #include <stdexcept>
-#include "../include/all_libs.h"
+#include <thread>
 #include "../include/module_registry.h"
 
 namespace {
@@ -40,7 +41,6 @@ Interpreter::Interpreter() {
 }
 
 void Interpreter::interpret(const std::vector<std::unique_ptr<ASTNode>>& statements) {
-    out_lib::configure_stdout();
     scopes.push_back({});
     for (const auto& stmt : statements) {
         visit(stmt.get());
@@ -258,7 +258,13 @@ void Interpreter::visitPrint(PrintNode* node) {
         Value v = visitExpr(node->args[i].get());
         output.push_back(valueToString(v));
     }
-    out_lib::print_line(output);
+    for (size_t i = 0; i < output.size(); ++i) {
+        if (i) {
+            std::cout << ' ';
+        }
+        std::cout << output[i];
+    }
+    std::cout << "\n";
 }
 
 Value Interpreter::visitExpr(ASTNode* node) {
@@ -616,6 +622,10 @@ Value Interpreter::visit(ASTNode* node) {
         const std::string importName = imp->moduleName;
         auto initializer = module_registry::getModule(importName);
         if (!initializer) {
+            module_registry::loadPlugin(importName);
+            initializer = module_registry::getModule(importName);
+        }
+        if (!initializer) {
             throw std::runtime_error("Unknown module: " + importName);
         }
         (*initializer)(*this);
@@ -769,8 +779,8 @@ Value Interpreter::visit(ASTNode* node) {
             }
             if (fc->args.size() == 1) {
                 Value prompt = visitExpr(fc->args[0].get());
-                out_lib::write(valueToString(prompt));
-                out_lib::flush();
+                std::cout << valueToString(prompt);
+                std::cout.flush();
             }
             std::string line;
             std::getline(std::cin, line);

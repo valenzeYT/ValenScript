@@ -1,0 +1,24 @@
+# ValenScript lib registry (name=url)
+# If a lib name is not in this file, ValenScript will try:
+# https://raw.githubusercontent.com/valenzeYT/<lib>/main/<lib>.cpp
+math=https://raw.githubusercontent.com/valenzeYT/math/refs/heads/main/math.cpp
+motherboard=https://raw.githubusercontent.com/valenzeYT/motherboard/refs/heads/main/motherboard.cpp
+memory=https://raw.githubusercontent.com/valenzeYT/memory/refs/heads/main/memory.cpp
+json=https://raw.githubusercontent.com/valenzeYT/json/refs/heads/main/json.cpp
+display=https://raw.githubusercontent.com/valenzeYT/display/refs/heads/main/display.cpp
+crypto=https://raw.githubusercontent.com/valenzeYT/crypto/refs/heads/main/crypto.cpp
+gui=https://raw.githubusercontent.com/valenzeYT/gui/refs/heads/main/gui.cpp
+system=https://raw.githubusercontent.com/valenzeYT/system/refs/heads/main/system.cpp
+string=https://raw.githubusercontent.com/valenzeYT/string/refs/heads/main/string.cpp
+requests=https://raw.githubusercontent.com/valenzeYT/requests/refs/heads/main/requests.cpp
+gpu=https://raw.githubusercontent.com/valenzeYT/gpu/refs/heads/main/gpu.cpp
+conversions=https://raw.githubusercontent.com/valenzeYT/conversions/refs/heads/main/conversions.cpp
+random=https://raw.githubusercontent.com/valenzeYT/random/refs/heads/main/random.cpp
+input=https://raw.githubusercontent.com/valenzeYT/input/refs/heads/main/input.cpp
+wifi=https://raw.githubusercontent.com/valenzeYT/wifi/refs/heads/main/wifi.cpp
+color=https://raw.githubusercontent.com/valenzeYT/color/refs/heads/main/color.cpp
+net=https://raw.githubusercontent.com/valenzeYT/net/refs/heads/main/net.cpp
+cpu=https://raw.githubusercontent.com/valenzeYT/cpu/refs/heads/main/cpu.cpp
+os=https://raw.githubusercontent.com/valenzeYT/os/refs/heads/main/os.cpp
+clipboard=https://raw.githubusercontent.com/valenzeYT/clipboard/refs/heads/main/clipboard.cpp
+time=https://raw.githubusercontent.com/valenzeYT/time/refs/heads/main/time.cpp
