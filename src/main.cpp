@@ -346,6 +346,22 @@ int main(int argc, char* argv[]) {
                 name = subcommand;
                 installLib(name);
             }
+        } else if (command == "exec") {
+            if (argc < 3) {
+                printUsage();
+                return 1;
+            }
+            std::string filename = argv[2];
+
+            std::string input = readFile(filename);
+
+            Lexer lexer(input);
+            Parser parser(lexer);
+            auto statements = parser.parse();
+
+            Interpreter interpreter;
+            interpreter.interpret(statements);
+
         } else {
             std::cerr << "Unknown command: " << command << "\n";
             return 1;

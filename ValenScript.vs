@@ -1,0 +1,6 @@
+﻿IMPORT gui
+
+gui.show_console
+
+WHILE TRUE
+    WAIT 99999999999999
